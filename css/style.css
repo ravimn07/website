@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../stage.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    border-radius: 1cm;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul li.active{
+    background-color: white;
+    color: black;
+}
+.tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tittle h1{
+    color: white;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 1ch;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    background: black;
+    color: white;
+    padding-bottom: 9px 20px;
+     
+}
